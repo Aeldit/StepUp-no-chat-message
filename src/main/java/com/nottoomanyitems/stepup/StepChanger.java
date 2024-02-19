@@ -16,7 +16,7 @@ import static org.lwjgl.glfw.GLFW.GLFW_KEY_Y;
 public final class StepChanger implements EndTick
 {
     public KeyBinding myKey;
-    public static int autoJumpState = 0; //0 StepUp, 1 None
+    public static int autoJumpState = 0; // 0 StepUp, 1 None
     public static boolean firstRun = true;
     public static String serverName;
 
@@ -24,8 +24,9 @@ public final class StepChanger implements EndTick
 
     public void setKeyBindings()
     {
-        final String category = "key.categories.stepup";
-        KeyBindingHelper.registerKeyBinding(myKey = new KeyBinding("key.stepup.toggle", InputUtil.Type.KEYSYM, GLFW_KEY_Y, category));
+        KeyBindingHelper.registerKeyBinding(myKey = new KeyBinding("key.stepup.toggle",
+                InputUtil.Type.KEYSYM, GLFW_KEY_Y, "key.categories.stepup")
+        );
     }
 
     @Override

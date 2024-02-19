@@ -7,9 +7,9 @@
     "mod.stepup.updateTooltip": "点击此处以访问官网下载更新",
     "key.categories.stepup": "抬步 (StepUp)",
     "key.stepup.toggle": "切换模式",
-    "mod.stepup.config.default": "Default on new servers",
-    "mod.stepup.config.dostepup": "§aStepUp enabled",
-    "mod.stepup.config.nostepup": "§cStepUp disabled",
-    "mod.stepup.config.vanillajump": "§eUse Vanilla Auto Jump",
-    "mod.stepup.config.tt.onthisserver": "Stepup behavior on this server"
+    "mod.stepup.config.default": "加入新服务器时默认设置",
+    "mod.stepup.config.dostepup": "自动跳跃已启用",
+    "mod.stepup.config.nostepup": "自动跳跃已禁用",
+    "mod.stepup.config.vanillajump": "使用原版自动跳跃",
+    "mod.stepup.config.tt.onthisserver": "在此服务器上使用自动跳跃"
 }
